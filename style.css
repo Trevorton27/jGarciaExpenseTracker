@@ -11,12 +11,15 @@
     color:rgb(77, 238, 77);
     text-align: center;
     background-color: rgb(27, 96, 117);
+    font-family: Arial, Helvetica, sans-serif;
     
 }
+
+
 .input-field{
 
     margin-bottom:0px;
-    margin-top: 40px;
+    margin-top: 70px;
     background-color: rgb(27, 96, 117);
     padding-bottom: 20px;
     padding-top: 20px;
@@ -62,8 +65,8 @@ table{
 th{
     color:rgb(49, 185, 49);
     background-color: white;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding:.5% 3% .5% 3%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 tr{
     
@@ -73,6 +76,7 @@ tr{
 
 td {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tableRowBackGround {
@@ -96,19 +100,22 @@ td {
     background-color:
     #aaaaaa;
     font-size: 15px;
+    color: #fff;
     cursor: pointer;
 }
 
 #add-button:hover {
     background-color: #fff;
     color: #000;
+
 }
 
 #delete-button {
-    margin: 3px 3px 3px 0px;
+    margin: 5px 5px 5px 8px;
     border-radius: 50%;
     padding: 5px 5px 5px 5px ;
     background-color: crimson;
     color: #fff;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
 }

@@ -38,6 +38,7 @@ addButton.addEventListener('click', (e) => {
     form.reset();
   }
 });
+
 tableBody.addEventListener('click', (e) => {
   seletedColorChanger(e.target);
 });
