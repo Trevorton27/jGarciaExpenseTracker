@@ -1,33 +1,42 @@
-*{
+ *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;   
-}
+} 
 
 .header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
     color:rgb(77, 238, 77);
     text-align: center;
     background-color: rgb(27, 96, 117);
     
 }
 .input-field{
-    margin: 5px;
+
     margin-bottom:0px;
+    margin-top: 40px;
     background-color: rgb(27, 96, 117);
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
 }
+
+
 #date{
     display: block;
-    margin-left:10px;
+    margin-left:20%;
     
     border-radius: 20px;
     text-align: center;
 }
 #cash-value{
-    
     border-radius:20px;
-    margin-left:10px;
+    margin-left:20px;
+    padding-left: 20px;
 }
 
 select:invalid{
@@ -36,21 +45,25 @@ select:invalid{
 #pay-options{ 
     border-radius: 20px;
    display: block;
-   margin-left: 105px;
+   margin-left:20px;
+   padding-left: 10px;
+   padding-right: 10px;
 }
 /*====== display table ===== */
 table{
     
-    max-width: 98%;
-    min-width: 98%;
+    width: 80%;
     margin: auto;
     padding-top: 5px;
+    margin-top: 70px;
     background-color: rgb(27, 96, 117);
 }
 
 th{
     color:rgb(49, 185, 49);
     background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 tr{
     
@@ -58,16 +71,44 @@ tr{
     background-color: white;
 }
 
-button{
-    float: right;
-    margin-right: 10px;
+td {
+    text-align: center;
 }
 
+.tableRowBackGround {
+    background-color: #ff0000;
+}
 .item-description{
     display: block;
-    background-color: rgb(223, 215, 215);
-    margin-left: 10px;
-    min-height: 15px;
-    max-width: 55%;
-    max-height: 150px;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    text-align: center;
+}
+
+#add-button {
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 0px 8px 0px 8px;
+    color:#fff;
+    background-color:
+    #aaaaaa;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#delete-button {
+    margin: 3px 3px 3px 0px;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px ;
+    background-color: crimson;
+    color: #fff;
+    border: none;
 }

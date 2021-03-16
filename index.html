@@ -8,35 +8,39 @@
     </head>
     <body>
     <h1 class='header'>Track Your Expenses</h1>
-    <div class="input-field">
+    <form id='form' class="input-field">
     <input id="date"type="date">
 
     <select id ="pay-options" placeholder="pay">
 
-        <option value="" disabled selected hidden>Pay Type</option>
+        <option value="" disabled selected hidden>Payment Type</option>
         <option value="cash">CASH</option>
         <option value="debit">DEBIT</option>
         <option value="credit">CREDIT</option>
         <option value="other">OTHER</option>
     </select>
-    <input  id="cash-value" placeholder="enter spent amount" type="number">    
-    <textarea class="item-description" placeholder="item description" ></textarea>
-</div>
+    <input  id="cash-value" placeholder="enter amount spent" type="number">    
+    <input class="item-description" placeholder="item description" ></input>
+    <input class="item-description" id='item-location' placeholder="purchased at" ></input>
+    <button id="add-button">add expense</button>
+</form>
+<!-- <button id="remove-button" type="button">remove expense</button> -->
+
 
     <table>
         <thread>
             <tr>
                 <th>date</th>
-                <th>type</th>
+                <th> payment type</th>
                 <th>amount</th>
-                <th>on what</th>
+                <th>purchased at</th>
+                <th>item description</th>
             </tr>
         </thread>
         <tbody class="display-input">            
         </tbody>
     </table>
-    <button id="remove-button" type="button">remove expense</button>
-    <button id="add-button">add expense</button>
+
   <script src="scripts.js"></script>
     </body>
 </html>
